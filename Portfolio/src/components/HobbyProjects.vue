@@ -1,0 +1,15 @@
+<template>
+    <v-container>
+        <p class="pa-16 text-center text-uppercase text-h4">Hobby Projects</p>
+        <Project flip image="active.jpg" title="3D Engine Experiments" text="When I was around 13 years old I started writing my first custom game engine in Java and later ported it to C++. While I eventually moved on to other projects, I am proud of everything I was able to learn and achieve at such a young age. My experiments with graphics programming and game engine development have left me with a very deep technical understanding of games and game engines." />
+        <Project image="neurocar.jpg" title="Procedural Planets" text="As a more recent example of my graphics programming hobby, I built a program that generates infinite variations of 3D planets with interactive and destructible terrain. No game engine or prebuilt renderer was used and everything was built from scratch using C++ and OpenGL. Procedural generation has always intrigued me. In this case I built a procedural noise-based voxel engine and used the Marching Cubes algorithm to triangulate smooth terrain meshes. Spherical planets were made by generating six voxel grids and warping them into a sphere using a method similar to No Man's Sky." />
+        <Project flip image="mobile.jpeg" title="Cortex Control" text="Cortex Control is a simple game made in less than 48 hours for the Ludum Dare 32 game jam and competition. The theme of the LD32 jam was Unconventional Weapon. Cortex Control is a top-down stealth shooter where the player must eliminate all enemies in each level using mind control. It was a one-man project built using Java and LibGDX." />
+        <Project image="active.jpg" title="Tunnel Chase" text="Tunnel Chase was another 48-hour Ludum Dare entry, this time for Ludum Dare 54 with the theme Limited Space. In Tunnel Chase the player must outrun the space police while dodging their missiles and other obstacles in tight tunnels. This was my first foray into the Godot engine and GDScript, so I took it as a challenge to learn a new engine and a programming language in addition to building a solo game in 48 hours." />
+        <Project flip image="neurocar.jpg" title="Texture Painting App" text="I wanted to paint textures on the go on my Galaxy Note and wasn't satisfied with any of the existing solutions, so I started building my own 3D texture painting app in Godot. It has an intuitive mobile-optimized UI and uses shader-based techniques to paint textures in real-time with better performance than many professional painting apps." />
+        <Project image="mobile.jpeg" title="Shaded" text="Shaded (working title) is a hardcore co-op stealth game inspired by the multiplayer mod for Thief 2. It is a love letter to the Thief franchise and the immersive sim genre with a focus on atmosphere, immersion and player agency. Shaded is an ongoing one-man passion project developed in Unreal Engine." />
+    </v-container>
+</template>
+
+<script setup>
+  //
+</script>

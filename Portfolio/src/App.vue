@@ -1,10 +1,13 @@
 <template>
   <v-app>
     <v-main>
-      <HelloWorld />
+      <!--HelloWorld /-->
+      <Intro />
+      <ProfessionalProjects />
+      <HobbyProjects />
     </v-main>
 
-    <AppFooter />
+    <!--AppFooter /-->
   </v-app>
 </template>
 
