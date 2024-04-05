@@ -10,14 +10,12 @@ $typoOptions: text-h1, text-sm-h1, text-md-h1, text-lg-h1, text-h2, text-sm-h2,
 #app {
   font-family: $body-font-family, sans-serif !important;
   font-weight: 300;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   @each $typoOption in $typoOptions {
     .#{$typoOption} {
       font-family: $body-font-family, sans-serif !important;
-      font-size: 1.25rem;
+      font-weight: 300;
+      font-size: 1.2rem;
     }
-  }
-  .text-h6 {
-    font-weight: 400;
   }
 }
